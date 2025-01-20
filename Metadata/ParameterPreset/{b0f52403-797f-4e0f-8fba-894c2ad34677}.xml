@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b0f52403-797f-4e0f-8fba-894c2ad34677}">
+		<property name="name">
+			<value>panicfill</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ebd80d4a-6c3c-468b-883d-cc9e4f67e374}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{da2be77c-965e-48ea-87f8-24aac092f8f2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{da2be77c-965e-48ea-87f8-24aac092f8f2}">
+		<property name="maximum">
+			<value>5000</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

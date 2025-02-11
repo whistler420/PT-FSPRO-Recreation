@@ -74,7 +74,7 @@
 	<object class="GroupTrack" id="{6c50711c-fdc3-4704-aa3f-82aa228cedcf}">
 		<relationship name="modules">
 			<destination>{7e8eab9c-1340-4cd2-acc3-07e294612a2a}</destination>
-			<destination>{99797c8b-bd88-4ff9-96aa-6932805caf52}</destination>
+			<destination>{2d96c387-ce01-4605-b00f-18df1f60afae}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{02bfce29-2d33-4100-b908-c6544c7786b6}</destination>
@@ -82,8 +82,8 @@
 	</object>
 	<object class="GroupTrack" id="{4a3caf0f-d9b9-4e83-a098-a59be13e2019}">
 		<relationship name="modules">
-			<destination>{d3638fef-6439-4f76-b92c-9a27a67f0476}</destination>
-			<destination>{a131f6d4-7bf5-4930-8eaf-d30db1721d6b}</destination>
+			<destination>{ca8cf8f3-acca-4447-b7a4-a78671d4acfc}</destination>
+			<destination>{b2098958-69e2-4b84-b017-93a022e212ae}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{41328deb-1caf-4e02-8f29-388ecd100de2}</destination>
@@ -92,10 +92,10 @@
 	<object class="Timeline" id="{871a3983-934d-4824-92d2-a0bf11a923b6}">
 		<relationship name="modules">
 			<destination>{bb1d3fd3-52f9-4dc3-b07c-d7764670d32a}</destination>
-			<destination>{d3638fef-6439-4f76-b92c-9a27a67f0476}</destination>
 			<destination>{7e8eab9c-1340-4cd2-acc3-07e294612a2a}</destination>
-			<destination>{99797c8b-bd88-4ff9-96aa-6932805caf52}</destination>
-			<destination>{a131f6d4-7bf5-4930-8eaf-d30db1721d6b}</destination>
+			<destination>{2d96c387-ce01-4605-b00f-18df1f60afae}</destination>
+			<destination>{ca8cf8f3-acca-4447-b7a4-a78671d4acfc}</destination>
+			<destination>{b2098958-69e2-4b84-b017-93a022e212ae}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{03ec720d-b177-412f-8223-d7b407e8045b}">
@@ -147,19 +147,25 @@
 		<property name="length">
 			<value>1.2</value>
 		</property>
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{75572f3c-48da-44ef-8b1a-73fda2f00ced}</destination>
+			<destination>{bfc9f0e8-6611-491f-b1e6-501ca605f809}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{99797c8b-bd88-4ff9-96aa-6932805caf52}">
+	<object class="SingleSound" id="{2d96c387-ce01-4605-b00f-18df1f60afae}">
 		<property name="start">
 			<value>2</value>
 		</property>
 		<property name="length">
 			<value>1.2</value>
 		</property>
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{75572f3c-48da-44ef-8b1a-73fda2f00ced}</destination>
+			<destination>{bfc9f0e8-6611-491f-b1e6-501ca605f809}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{02bfce29-2d33-4100-b908-c6544c7786b6}">
@@ -179,26 +185,32 @@
 			<destination>{03ec720d-b177-412f-8223-d7b407e8045b}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{d3638fef-6439-4f76-b92c-9a27a67f0476}">
+	<object class="SingleSound" id="{ca8cf8f3-acca-4447-b7a4-a78671d4acfc}">
 		<property name="start">
 			<value>0.30000000000000004</value>
 		</property>
 		<property name="length">
 			<value>1.2</value>
 		</property>
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{75572f3c-48da-44ef-8b1a-73fda2f00ced}</destination>
+			<destination>{bfc9f0e8-6611-491f-b1e6-501ca605f809}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{a131f6d4-7bf5-4930-8eaf-d30db1721d6b}">
+	<object class="SingleSound" id="{b2098958-69e2-4b84-b017-93a022e212ae}">
 		<property name="start">
 			<value>2.2999999999999998</value>
 		</property>
 		<property name="length">
 			<value>1.2</value>
 		</property>
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{75572f3c-48da-44ef-8b1a-73fda2f00ced}</destination>
+			<destination>{bfc9f0e8-6611-491f-b1e6-501ca605f809}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{41328deb-1caf-4e02-8f29-388ecd100de2}">

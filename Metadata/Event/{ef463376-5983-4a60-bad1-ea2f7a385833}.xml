@@ -117,6 +117,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{9832c37b-866c-41de-ac7b-5555a6494d9c}" />
 	<object class="SingleSound" id="{3118ab28-5d04-4c1f-b1e3-889a10d4f402}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
@@ -125,6 +128,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{af3c783c-6f97-45c2-9a13-f73038ce214c}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{ee6030b7-6665-40cc-8b7a-db6700f28014}</destination>
 		</relationship>
@@ -133,6 +139,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{4046e678-1ef4-47c9-a7a1-df42be26b7e9}">
+		<property name="triggerConditionMode">
+			<value>1</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{b7198f4d-39d5-4059-8884-efa3c31e8eee}</destination>
 		</relationship>

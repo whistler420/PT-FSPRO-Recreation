@@ -105,6 +105,7 @@
 			<destination>{93873911-37c4-4ab7-943e-d1cf7628feed}</destination>
 			<destination>{cb79700e-3664-4b66-b17d-4e213592a348}</destination>
 			<destination>{ad9147de-8d06-430c-87bb-d31b300a51de}</destination>
+			<destination>{89330697-7118-484f-babd-dab78771cf43}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2ecd939d-f801-4832-9fda-4ff9997cc12d}</destination>
@@ -138,6 +139,7 @@
 			<destination>{93873911-37c4-4ab7-943e-d1cf7628feed}</destination>
 			<destination>{cb79700e-3664-4b66-b17d-4e213592a348}</destination>
 			<destination>{ad9147de-8d06-430c-87bb-d31b300a51de}</destination>
+			<destination>{89330697-7118-484f-babd-dab78771cf43}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
@@ -427,6 +429,20 @@
 		<property name="commandType">
 			<value>3</value>
 		</property>
+		<relationship name="commandTarget">
+			<destination>{2c8e0c9a-8127-421e-8500-df8251692467}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{89330697-7118-484f-babd-dab78771cf43}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{0f592392-0bab-4308-a1c9-6cb1239fd47f}</destination>
+		</relationship>
 		<relationship name="commandTarget">
 			<destination>{2c8e0c9a-8127-421e-8500-df8251692467}</destination>
 		</relationship>
@@ -807,6 +823,17 @@
 		</property>
 		<property name="maximum">
 			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{0f592392-0bab-4308-a1c9-6cb1239fd47f}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>

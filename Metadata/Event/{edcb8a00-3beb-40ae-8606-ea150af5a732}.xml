@@ -63,6 +63,7 @@
 			<destination>{19700add-e3ad-4703-9c2b-78aada7f766a}</destination>
 			<destination>{8d0ca60f-afe9-4ed3-a58d-ff7649e37488}</destination>
 			<destination>{beaff77b-d841-4534-8117-5937e4030f2a}</destination>
+			<destination>{a01de8ad-61f0-4ef9-bade-43685c7815e0}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c85baa4c-35bb-4846-a76a-17439c9aba2c}</destination>
@@ -115,6 +116,7 @@
 			<destination>{420add66-7ada-4bde-9985-3851d23542f7}</destination>
 			<destination>{259235e5-dcc9-4a06-8caa-da93ab1f0f10}</destination>
 			<destination>{e9ddbf99-c7b1-4fa5-8e09-090ffb0067be}</destination>
+			<destination>{a01de8ad-61f0-4ef9-bade-43685c7815e0}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{7ab7239d-c154-490d-9210-a7a42d2d3837}</destination>
@@ -241,6 +243,17 @@
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{b6dbcfd2-19a2-4edf-98e4-cde0e9383560}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{a01de8ad-61f0-4ef9-bade-43685c7815e0}">
+		<property name="length">
+			<value>637.63636363636374</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{c93d20cb-48ff-49b0-b774-1d5fac1febf9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{795f2c0c-8748-493e-b3e2-adfd7f1b557a}">

@@ -48,6 +48,7 @@
 		<relationship name="modules">
 			<destination>{66e4e221-be76-4724-b4e7-9dd6fe854d75}</destination>
 			<destination>{dea9e28c-19ba-4356-b0ff-3888bdc5aebc}</destination>
+			<destination>{832a58a6-0868-4fc4-a4a5-98cdd4954a50}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{259ab483-e291-4aa0-96f4-bdb572283226}</destination>
@@ -79,6 +80,7 @@
 	<object class="Timeline" id="{34cd5066-595e-49ff-8d96-a17ff46535e1}">
 		<relationship name="modules">
 			<destination>{56b35653-a78c-4f19-b0ac-d4b7630c71bd}</destination>
+			<destination>{832a58a6-0868-4fc4-a4a5-98cdd4954a50}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{9204e21b-1655-4b51-9ba9-e82f590ee330}</destination>
@@ -107,6 +109,17 @@
 		<property name="length">
 			<value>0</value>
 		</property>
+	</object>
+	<object class="CommandSound" id="{832a58a6-0868-4fc4-a4a5-98cdd4954a50}">
+		<property name="length">
+			<value>212.08490566037736</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{c93d20cb-48ff-49b0-b774-1d5fac1febf9}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{7cbd9a9e-048b-4b04-b5a7-73efec2c74af}">
 		<relationship name="effects">

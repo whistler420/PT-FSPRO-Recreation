@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b6703496-cdc0-4308-8a9f-2dd2f0d1f471}">
-		<property name="note" />
 		<property name="name">
 			<value>farm</value>
 		</property>
@@ -54,6 +53,7 @@
 			<destination>{61d0d72d-1f66-44d2-9575-211d64d10937}</destination>
 			<destination>{f7a0c9c2-f1a8-4e20-80be-d55a2c0ec3d0}</destination>
 			<destination>{3652774c-39b0-4269-adee-8568426451cb}</destination>
+			<destination>{11becbb5-2c83-4a4a-b265-2fc7a98a9c95}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{26bb2c42-e572-4e07-994b-7bb846fe9551}</destination>
@@ -92,6 +92,7 @@
 		<relationship name="modules">
 			<destination>{6ce5a5e1-3774-4483-953c-9618322f243f}</destination>
 			<destination>{5a401914-98ae-4178-8dbb-ab8702731fbd}</destination>
+			<destination>{11becbb5-2c83-4a4a-b265-2fc7a98a9c95}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{323baa7b-b6a6-4679-ad0a-8bec46e3bc64}</destination>
@@ -152,6 +153,17 @@
 		<property name="length">
 			<value>0</value>
 		</property>
+	</object>
+	<object class="CommandSound" id="{11becbb5-2c83-4a4a-b265-2fc7a98a9c95}">
+		<property name="length">
+			<value>336.51265306122446</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{c93d20cb-48ff-49b0-b774-1d5fac1febf9}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6c3044d1-0357-4988-9e33-ee268fdbd019}">
 		<relationship name="effects">

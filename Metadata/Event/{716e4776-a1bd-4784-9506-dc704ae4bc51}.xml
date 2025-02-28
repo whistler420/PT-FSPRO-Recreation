@@ -186,6 +186,7 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{41eb2466-f824-4962-800a-56fd4da8efd1}</destination>
+			<destination>{2b1607dc-b63e-4771-81f7-446c7a4c7465}</destination>
 		</relationship>
 	</object>
 	<object class="NamedMarker" id="{03d789cc-c64f-4c66-abed-c1e4c129c5cb}">
@@ -246,6 +247,17 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{2b1607dc-b63e-4771-81f7-446c7a4c7465}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{c93d20cb-48ff-49b0-b774-1d5fac1febf9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{02bc9f48-7ea3-422b-882e-865a0e7759cc}" />

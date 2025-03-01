@@ -217,6 +217,9 @@
 			<destination>{bb7596f3-1fd0-47bb-8fd3-1ecd3144365e}</destination>
 			<destination>{466496ce-5baf-48f4-8929-2399089d57d4}</destination>
 		</relationship>
+		<relationship name="playPercentages">
+			<destination>{119a3b57-683b-43aa-a720-f1ea56c9a921}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{de980ddd-80bf-4f06-bc55-5cc98ced9321}">
 		<property name="volume">
@@ -501,6 +504,14 @@
 	<object class="EventSound" id="{466496ce-5baf-48f4-8929-2399089d57d4}">
 		<relationship name="event">
 			<destination>{8514238e-47ca-48dd-8b39-bb0441dfc2eb}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{119a3b57-683b-43aa-a720-f1ea56c9a921}">
+		<property name="percentage">
+			<value>100</value>
+		</property>
+		<relationship name="sound">
+			<destination>{bb7596f3-1fd0-47bb-8fd3-1ecd3144365e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{bd04e04a-45cf-4164-a23e-985e150d94f4}">

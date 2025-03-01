@@ -49,6 +49,7 @@
 		<relationship name="modules">
 			<destination>{6ac27d90-872f-4a1a-b1c6-a3f34ee26096}</destination>
 			<destination>{c0f58238-2368-4c1f-8835-f7bbb987fd7c}</destination>
+			<destination>{3345f29f-3a50-4827-b542-4573e472608f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2162d28a-5443-4fd2-ae84-64b4274b8b77}</destination>
@@ -83,6 +84,7 @@
 		<relationship name="modules">
 			<destination>{0cb4128e-2119-43e3-986c-e6b4cf0c5801}</destination>
 			<destination>{44670930-1973-4c26-bf8c-60a85c726907}</destination>
+			<destination>{3345f29f-3a50-4827-b542-4573e472608f}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{233ac53a-d68e-4591-9112-fb47356677d2}</destination>
@@ -114,6 +116,17 @@
 			<value>0</value>
 		</property>
 	</object>
+	<object class="CommandSound" id="{3345f29f-3a50-4827-b542-4573e472608f}">
+		<property name="length">
+			<value>299.51999999999998</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{c93d20cb-48ff-49b0-b774-1d5fac1febf9}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{4beb568b-2d89-4e2c-843e-81ec02ed46ed}">
 		<relationship name="effects">
 			<destination>{0fb776e5-1165-4b7e-8050-e867a307e667}</destination>
@@ -137,9 +150,6 @@
 		<property name="length">
 			<value>150.28244897959183</value>
 		</property>
-		<property name="volume">
-			<value>-2.5</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{9a9bdd79-3201-4057-afb6-f8cc61fd3460}</destination>
 		</relationship>
@@ -150,9 +160,6 @@
 		</property>
 		<property name="length">
 			<value>139.52000000000001</value>
-		</property>
-		<property name="volume">
-			<value>-2.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e5e82261-fd0c-433b-a2e7-3e6bb6775ed0}</destination>

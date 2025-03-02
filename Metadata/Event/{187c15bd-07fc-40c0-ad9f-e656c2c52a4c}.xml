@@ -172,9 +172,6 @@
 		<relationship name="markerTrack">
 			<destination>{12d89c23-3b56-421b-9ae7-7d435d71cdae}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{27c0307b-f57e-436f-a60f-762287bbee02}</destination>
-		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{0a8ae6df-aae9-404f-8972-6cb917750552}</destination>
 		</relationship>
@@ -203,17 +200,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d58c5735-8e96-4137-81de-ded181a4c247}" />
-	<object class="ParameterCondition" id="{27c0307b-f57e-436f-a60f-762287bbee02}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionTimeline" id="{0a8ae6df-aae9-404f-8972-6cb917750552}">
 		<property name="length">
 			<value>2</value>

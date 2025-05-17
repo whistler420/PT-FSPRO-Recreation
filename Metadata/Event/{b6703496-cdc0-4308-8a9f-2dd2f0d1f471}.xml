@@ -173,8 +173,11 @@
 	<object class="MixerBusPanner" id="{d3dd8e5b-5014-49d4-840a-e16ef49ebdf0}" />
 	<object class="TransitionSourceSound" id="{0da8a4cb-a630-4602-80ec-b2f37d8593be}">
 		<property name="length">
-			<value>0</value>
+			<value>1.6363636363636362</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{456a5589-9c06-4e32-99eb-f3c3c0f09bb6}</destination>
+		</relationship>
 	</object>
 	<object class="TransitionDestinationSound" id="{5e82d323-94c1-4b99-a70f-531612acfe5e}">
 		<property name="length">
@@ -227,6 +230,9 @@
 	<object class="SingleSound" id="{5a401914-98ae-4178-8dbb-ab8702731fbd}">
 		<property name="length">
 			<value>98.195736961451246</value>
+		</property>
+		<property name="volume">
+			<value>4</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e58f09d7-5250-4e18-b66e-17aa74a8866c}</destination>
@@ -352,6 +358,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3601ce27-91d2-4ec7-8a60-e7fa4178b7b1}" />
+	<object class="TransitionSourceFadeOutCurve" id="{456a5589-9c06-4e32-99eb-f3c3c0f09bb6}">
+		<relationship name="startPoint">
+			<destination>{268f6806-0cc3-4491-93ee-4ba1f14b0858}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{3ce6bd3b-80b6-430b-8c10-b3491f7ab9ec}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{5e82d323-94c1-4b99-a70f-531612acfe5e}</destination>
+		</relationship>
+	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{91df6c8f-dbc6-4773-85f8-b31da431176b}">
 		<relationship name="startPoint">
 			<destination>{2a4b77ab-433e-40b8-bfbd-2647cd610186}</destination>
@@ -483,6 +500,28 @@
 		</property>
 		<property name="value">
 			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{268f6806-0cc3-4491-93ee-4ba1f14b0858}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{3ce6bd3b-80b6-430b-8c10-b3491f7ab9ec}">
+		<property name="position">
+			<value>1.6363636363636362</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2a4b77ab-433e-40b8-bfbd-2647cd610186}">

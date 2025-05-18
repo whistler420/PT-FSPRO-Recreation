@@ -5,7 +5,7 @@
 			<value>hotspaghetti</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7b98868e-8354-4b55-812f-74d1c334f7f5}</destination>
@@ -104,11 +104,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{7e62b391-cde6-42da-b84b-f2790238bb7d}" />
 	<object class="SingleSound" id="{cf34f396-faed-4ae8-9a0a-57baf885b4d5}">
+		<property name="volume">
+			<value>9.5</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{48fcf374-de29-473b-9419-755bff967110}</destination>
+			<destination>{74aa0111-a99d-4904-ad59-3a08590771d3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{03a014df-062c-420e-8945-3a4ca0841ff9}" />

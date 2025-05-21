@@ -41,6 +41,9 @@
 		<relationship name="timeline">
 			<destination>{e8e3aeb5-568c-45fe-9ee0-87587668423e}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{6cff0daa-222d-48b6-8500-9559482a8067}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{16de4e46-bce0-4a42-a53f-ebfb0a6d79b0}</destination>
 		</relationship>
@@ -58,6 +61,7 @@
 			<destination>{4d2f27a0-15e7-4130-9670-0c547afbc0fe}</destination>
 			<destination>{886b6cf5-4115-439a-821e-399baa23d94a}</destination>
 			<destination>{948b8f05-7360-4651-8a86-7515cb87d215}</destination>
+			<destination>{099f879d-f673-4b29-90b4-e8f473e03ad3}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f985c8c7-e9f4-4efe-a6d9-023d55799db8}</destination>
@@ -113,6 +117,7 @@
 			<destination>{95364833-22a4-4d5e-b231-b523845943ed}</destination>
 			<destination>{c344ced0-43a2-4b6f-a2ab-6a4349ba4da9}</destination>
 			<destination>{03d76bc8-b83d-4a30-add1-66aacc66e740}</destination>
+			<destination>{099f879d-f673-4b29-90b4-e8f473e03ad3}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{6741fd43-6c61-4870-a33e-14e7b313b3f7}</destination>
@@ -123,6 +128,11 @@
 			<destination>{320d2e3d-6d3a-41ea-9cec-63904fbb3db6}</destination>
 			<destination>{4c2bc0e2-2b34-415d-9655-981c9b9d687f}</destination>
 			<destination>{18e39258-5a05-4654-bb9f-9f4be016d713}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{6cff0daa-222d-48b6-8500-9559482a8067}">
+		<relationship name="preset">
+			<destination>{b95e356a-04ac-4bf8-a011-438555c2e38c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f985c8c7-e9f4-4efe-a6d9-023d55799db8}">
@@ -174,6 +184,20 @@
 		<property name="length">
 			<value>0</value>
 		</property>
+	</object>
+	<object class="CommandSound" id="{099f879d-f673-4b29-90b4-e8f473e03ad3}">
+		<property name="length">
+			<value>287.07961236885922</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<property name="targetValue">
+			<value>1</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{b95e356a-04ac-4bf8-a011-438555c2e38c}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cadc860d-167f-4108-88fc-a53bbc4e2f6d}">
 		<relationship name="effects">

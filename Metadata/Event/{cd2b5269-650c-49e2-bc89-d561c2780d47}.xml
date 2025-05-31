@@ -49,6 +49,7 @@
 		</relationship>
 		<relationship name="modules">
 			<destination>{e9a6207b-c85c-4868-9dd8-007ec1e782d2}</destination>
+			<destination>{5b576cf9-8c8f-4943-8a87-d748adeb6a70}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b6575a1e-fe35-4b35-b949-fef9f611df84}</destination>
@@ -68,9 +69,9 @@
 	<object class="EventAutomatableProperties" id="{45d80491-61fa-488f-934a-04db4bdcd167}" />
 	<object class="MarkerTrack" id="{e22f5246-accb-466b-861c-74cc03620e98}" />
 	<object class="Timeline" id="{e48002b8-c0b0-41f4-971b-5ebd8422fd4e}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
+		<relationship name="modules">
+			<destination>{5b576cf9-8c8f-4943-8a87-d748adeb6a70}</destination>
+		</relationship>
 	</object>
 	<object class="ActionSheet" id="{9fbc4a5e-2b1a-4f5f-8fd4-98d875527a1e}">
 		<relationship name="modules">
@@ -99,6 +100,17 @@
 	<object class="MultiSound" id="{e9a6207b-c85c-4868-9dd8-007ec1e782d2}">
 		<relationship name="sounds">
 			<destination>{f6966b92-60e1-4b76-a869-d56f6b76a99d}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{5b576cf9-8c8f-4943-8a87-d748adeb6a70}">
+		<property name="length">
+			<value>40.5</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{c93d20cb-48ff-49b0-b774-1d5fac1febf9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cffef2ea-e2dc-4769-bbd2-9de0d81dbcee}">

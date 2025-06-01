@@ -147,9 +147,6 @@
 		<relationship name="markerTrack">
 			<destination>{725be930-d900-415e-b1f2-900544214528}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{cf2524da-ed05-4ada-8a27-66d5eca79607}</destination>
-		</relationship>
 	</object>
 	<object class="LoopRegion" id="{add0a7b7-e948-4889-8543-89d47bcdab82}">
 		<property name="position">
@@ -173,7 +170,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>120</value>
+			<value>119.60000000000001</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{2e93655c-03b2-465e-9a63-bad153ad0c30}</destination>
@@ -191,7 +188,7 @@
 	</object>
 	<object class="NamedMarker" id="{03d789cc-c64f-4c66-abed-c1e4c129c5cb}">
 		<property name="position">
-			<value>120</value>
+			<value>119.60000000000001</value>
 		</property>
 		<property name="name">
 			<value>Swap</value>
@@ -216,17 +213,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{458f88f4-a653-4f71-add6-7f1250df6341}" />
-	<object class="ParameterCondition" id="{cf2524da-ed05-4ada-8a27-66d5eca79607}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{f32d9e7d-6a00-4168-afd6-20647524ca2b}">
 		<property name="minimum">
 			<value>1</value>

@@ -109,6 +109,9 @@
 		<property name="commandType">
 			<value>3</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{dade9828-f389-423a-b455-cf8d8b5e510c}</destination>
+		</relationship>
 		<relationship name="commandTarget">
 			<destination>{c93d20cb-48ff-49b0-b774-1d5fac1febf9}</destination>
 		</relationship>
@@ -136,6 +139,17 @@
 	<object class="EventSound" id="{f6966b92-60e1-4b76-a869-d56f6b76a99d}">
 		<relationship name="event">
 			<destination>{eaa3cf64-9fd5-4c42-91c6-24028b36d4e4}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{dade9828-f389-423a-b455-cf8d8b5e510c}">
+		<property name="minimum">
+			<value>21</value>
+		</property>
+		<property name="maximum">
+			<value>21</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{fa757714-2f4d-4a32-9351-ac701407db25}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{513b5329-492a-4668-90b7-d5130605aa97}" />

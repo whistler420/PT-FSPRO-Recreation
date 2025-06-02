@@ -227,6 +227,9 @@
 	<object class="MixerBusEffectChain" id="{3201dc4f-9420-4a26-9be6-e473ce95baa3}">
 		<relationship name="effects">
 			<destination>{8871758e-9c7c-4666-a3b5-f35078128afd}</destination>
+			<destination>{b464b953-f501-4690-a3cd-dc86743d486e}</destination>
+			<destination>{8f17d134-4943-4bb7-9bcd-a80b106b0ad7}</destination>
+			<destination>{7ded8599-2e27-4a04-a8fd-bacbb21c1e88}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f2ae1614-cc75-477a-a29f-238b3ad4450c}" />
@@ -242,6 +245,30 @@
 	</object>
 	<object class="MixerBusFader" id="{4d3d9597-b094-4ae9-824c-328cd7702f92}" />
 	<object class="MixerBusFader" id="{8871758e-9c7c-4666-a3b5-f35078128afd}" />
+	<object class="ThreeEQEffect" id="{b464b953-f501-4690-a3cd-dc86743d486e}">
+		<property name="lowGain">
+			<value>10</value>
+		</property>
+		<property name="highGain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{8f17d134-4943-4bb7-9bcd-a80b106b0ad7}">
+		<property name="level">
+			<value>0.25</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{7ded8599-2e27-4a04-a8fd-bacbb21c1e88}">
+		<property name="rate">
+			<value>2.5</value>
+		</property>
+		<property name="delay">
+			<value>0.149999991</value>
+		</property>
+		<property name="mix">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{a9937702-b5f1-4f38-a909-eef29162f916}">
 		<property name="position">
 			<value>0</value>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8514238e-47ca-48dd-8b39-bb0441dfc2eb}">
-		<property name="note" />
 		<property name="name">
 			<value>Evil and Fucked Up</value>
 		</property>
@@ -598,11 +597,8 @@
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{ae4082fb-55ac-4e18-a5cd-31111822fc3c}">
-		<property name="length">
-			<value>0.44998383930371233</value>
-		</property>
 		<relationship name="fadeOutCurve">
-			<destination>{efb34fdb-b2a7-41aa-bd49-9bb10594ccde}</destination>
+			<destination>{95c4aebc-9280-43d1-9384-011241cc53e4}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionDestinationSound" id="{dc2b36f4-7cf1-4b81-bc8b-30b6cd8db270}">
@@ -1538,15 +1534,12 @@
 			<destination>{e2454422-b180-4696-8550-1758ae0cee51}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceFadeOutCurve" id="{efb34fdb-b2a7-41aa-bd49-9bb10594ccde}">
+	<object class="TransitionSourceFadeOutCurve" id="{95c4aebc-9280-43d1-9384-011241cc53e4}">
 		<relationship name="startPoint">
-			<destination>{c1d4cf81-4a7e-4cc0-aa33-05b4f2c9c3a0}</destination>
+			<destination>{42f0bd11-654d-409c-9c51-42bec395a150}</destination>
 		</relationship>
 		<relationship name="endPoint">
-			<destination>{5bacff74-198d-4bc9-b2b0-c23cf374ac2c}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{dc2b36f4-7cf1-4b81-bc8b-30b6cd8db270}</destination>
+			<destination>{d887ecdf-660f-4871-88dc-2ab48d54eb2e}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionDestinationFadeInCurve" id="{651dc084-d123-4d7f-8664-95575f88c3eb}">
@@ -2617,7 +2610,7 @@
 			<value>0</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{c1d4cf81-4a7e-4cc0-aa33-05b4f2c9c3a0}">
+	<object class="AutomationPoint" id="{42f0bd11-654d-409c-9c51-42bec395a150}">
 		<property name="position">
 			<value>0</value>
 		</property>
@@ -2628,9 +2621,9 @@
 			<value>-1.00000048</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{5bacff74-198d-4bc9-b2b0-c23cf374ac2c}">
+	<object class="AutomationPoint" id="{d887ecdf-660f-4871-88dc-2ab48d54eb2e}">
 		<property name="position">
-			<value>0.44998383930371233</value>
+			<value>1</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2649,7 +2642,7 @@
 	</object>
 	<object class="AutomationPoint" id="{15a9984f-4f60-4f94-a2bd-8056d92292bf}">
 		<property name="position">
-			<value>0.087259147924939842</value>
+			<value>1</value>
 		</property>
 		<property name="value">
 			<value>1</value>

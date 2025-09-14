@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{508b048c-c0b3-4c3f-ba33-9aed6c9f4916}">
 		<property name="note">
-			<value>I gotta redo this someday holy SHIT</value>
+			<value>swap mode tracks are included because it just doesn't work when separated for some reason</value>
 		</property>
 		<property name="name">
 			<value>Normal</value>
@@ -26,7 +26,6 @@
 			<destination>{ce94ceef-addb-4302-ac32-7c259e539700}</destination>
 		</relationship>
 		<relationship name="markerTracks">
-			<destination>{506e6fbb-1e53-4ef9-aafc-e47e1da5725e}</destination>
 			<destination>{ebc3e1dd-6a6b-423e-b25d-c1a50b61f683}</destination>
 			<destination>{40311978-e4df-4bc1-ba2a-a647e4056a79}</destination>
 			<destination>{e3959f87-c75e-4846-a4d2-a767a416f18b}</destination>
@@ -77,7 +76,6 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ce94ceef-addb-4302-ac32-7c259e539700}" />
-	<object class="MarkerTrack" id="{506e6fbb-1e53-4ef9-aafc-e47e1da5725e}" />
 	<object class="MarkerTrack" id="{ebc3e1dd-6a6b-423e-b25d-c1a50b61f683}" />
 	<object class="MarkerTrack" id="{40311978-e4df-4bc1-ba2a-a647e4056a79}" />
 	<object class="MarkerTrack" id="{e3959f87-c75e-4846-a4d2-a767a416f18b}" />
@@ -471,7 +469,7 @@
 			<destination>{80c4dfe9-dbe3-477e-bd71-f47d1e52a1d5}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{506e6fbb-1e53-4ef9-aafc-e47e1da5725e}</destination>
+			<destination>{ebc3e1dd-6a6b-423e-b25d-c1a50b61f683}</destination>
 		</relationship>
 		<relationship name="destination">
 			<destination>{82202dbe-f85c-45f8-8475-25a9b037fb76}</destination>

@@ -36,6 +36,9 @@
 		<relationship name="timeline">
 			<destination>{871a3983-934d-4824-92d2-a0bf11a923b6}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{3e612873-f498-42b4-8744-e759049b2259}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{68835125-dab1-4312-9b5a-d21ee9bdb318}</destination>
 		</relationship>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{76885665-f3ce-49fd-bad9-ce2fa6dd7052}">
+		<relationship name="modules">
+			<destination>{21a10b66-703d-4be5-a20c-a07faf3c2665}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{03ec720d-b177-412f-8223-d7b407e8045b}</destination>
 		</relationship>
@@ -98,6 +104,11 @@
 			<destination>{b2098958-69e2-4b84-b017-93a022e212ae}</destination>
 		</relationship>
 	</object>
+	<object class="ActionSheet" id="{3e612873-f498-42b4-8744-e759049b2259}">
+		<relationship name="modules">
+			<destination>{21a10b66-703d-4be5-a20c-a07faf3c2665}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{03ec720d-b177-412f-8223-d7b407e8045b}">
 		<property name="volume">
 			<value>6</value>
@@ -110,6 +121,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{8e8789d0-4cb3-4ae2-b127-575c975a52e8}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{21a10b66-703d-4be5-a20c-a07faf3c2665}">
+		<relationship name="sounds">
+			<destination>{ba4ead39-d6c2-442d-8a2e-2433ec019910}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c0e0e6bf-7a6b-4510-a74f-2d35061524b3}">
@@ -236,6 +252,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e106573d-d41a-4d0e-8dd9-44920b14c7cc}" />
+	<object class="SingleSound" id="{ba4ead39-d6c2-442d-8a2e-2433ec019910}">
+		<relationship name="audioFile">
+			<destination>{8115b63b-22cc-4f31-bfa1-1d4fea936951}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{0c2de915-7524-45ed-8f2a-4de336da18d0}" />
 	<object class="FadeCurve" id="{5b7af0e4-1496-4f5c-b8cd-4a85c9ccd072}">
 		<relationship name="startPoint">

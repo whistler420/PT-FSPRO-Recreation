@@ -148,9 +148,6 @@
 		<relationship name="markerTrack">
 			<destination>{cb4cc752-737b-412d-b8ac-3b719edaeaf5}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{683d4943-0a2f-4e62-bda3-6335a0be240c}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ebfbec9e-6b5d-4dbb-b603-697ed5ef4245}">
 		<relationship name="effects">
@@ -186,17 +183,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e4af45e2-e6e8-4653-b0cb-2883cec2fd7c}" />
-	<object class="ParameterCondition" id="{683d4943-0a2f-4e62-bda3-6335a0be240c}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{cd34c2c4-0adb-4ab3-80af-44ac8f3ae2e3}" />
 	<object class="MixerBusFader" id="{2227b2a2-c2ba-4604-8451-294d02a20c1c}" />
 </objects>
